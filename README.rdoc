@@ -127,11 +127,11 @@ temporary tables, and then a set of static SQL statements (kept in the sql/
 directory) are used to transform this data and import it into the database
 itself.
 
-== Build metaphones using Ruby metaphone
-
-run bin/rebuild_metaphones /opt/tiger/geocoder.db 
+=== Build metaphones using Ruby metaphone
 
 This creates the metaphones using Ruby's metaphone function and will produce better geocoding results.
+
+  $ bin/rebuild_metaphones /opt/tiger/geocoder.db 
 
 === Build the indexes
 
